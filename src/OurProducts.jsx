@@ -3,24 +3,19 @@ import img from "./door1.png";
 import img1 from "./door2.jpg"
 import img2 from "./door3.png"
 import img3 from "./door4.jpg"
-import img4 from "./door5.png"
-import img5 from "./door6.jpg"
-import img6 from "./door7.png"
-import img7 from "./door8.jpg"
-import img8 from "./door9.png"
-import img9 from "./door10.jpg"
+
 
 const products = [
   { name: "Doors", img: img },
-  { name: "Sofa", img1: img1 },
-  { name: "Dining Tables", img2: img2 },
-  { name: "Tables", img3: img3 },
-  { name: "Chairs", img4: img4 },
-  { name: "Beds", img5: img5 },
-  { name: "Study Tables", img6: img6 },
-  { name: "Wardrobes", img7: img7 },
-  { name: "Swings", img8: img8 },
-  { name: "Home Decor", img9: img9 }
+  { name: "Sofa", img: img },
+  { name: "Dining Tables", img: img },
+  { name: "Tables", img: img },
+  { name: "Chairs", img: img },
+  { name: "Beds", img: img },
+  { name: "Study Tables", img: img },
+  { name: "Wardrobes", img: img },
+  { name: "Swings", img: img },
+  { name: "Home Decor", img: img }
 ];
 
 const OurProducts = () => {
